@@ -10,7 +10,6 @@ django-allauth==0.54.0
 django-taggit==4.0.0
 filelock==3.12.2
 idna==3.4
-mod-wsgi==4.9.4
 mod-wsgi-httpd==2.4.54.1
 oauthlib==3.2.2
 platformdirs==3.6.0
