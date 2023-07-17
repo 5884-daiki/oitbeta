@@ -88,13 +88,15 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 #DATABASES = {
- #      'ENGINE': 'django.db.backends.postgresql_psycopg2',
-  #     'USER': 'oitc1',
-   #     'PASSWORD': 'Dai5884ki%#',
-    #   'PORT': '5432',
-    #}
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'NAME': 'oitconnect',
+##        'USER': 'postgres',
+#        'PASSWORD': 'Dai5884ki%#',
+#        'HOST': 'localhost',
+ #       'PORT': '5432',
+ #   }
 #}
 
 # Password validation
