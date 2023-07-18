@@ -15,6 +15,12 @@ import datetime
     
 ##################################################################
 
+from django.shortcuts import render
+
+def sample_view(request):
+    # テンプレートファイル sample.html をレンダリングしてレスポンスを返す
+    return render(request, 'sample.html')
+
 """リスト一覧"""
 
 
