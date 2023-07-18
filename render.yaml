@@ -1,7 +1,9 @@
 databases:
-  - name: mysite
-    databaseName: mysite
+  - name: /home/daiki/oitbeta/db.sqlite3
+    databaseName: db.sqlite3
     user: mysite
+
+
 
 services:
   - type: web
